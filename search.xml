@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>django框架</title>
+      <link href="/2016/12/02/hello/"/>
+      <url>/2016/12/02/hello/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、创建指定python版本的虚拟环境："><a href="#一、创建指定python版本的虚拟环境：" class="headerlink" title="一、创建指定python版本的虚拟环境："></a>一、创建指定python版本的虚拟环境：</h1><pre><code>1.  mkvirtualenv venv_name -p python32.  mkvirtualenv --python=/usr/local/python3.5.3/bin/python venv_name</code></pre><h1 id="二-Django子应用自动生成urls文件："><a href="#二-Django子应用自动生成urls文件：" class="headerlink" title="二. Django子应用自动生成urls文件："></a>二. Django子应用自动生成urls文件：</h1><p>​       1.在所用的虚拟环境中，例如django_py3/lib/python3.5/site-packages/django/conf下，将project_template/project_name/urls.py-tpl复制到app_template下即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> django </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>postName</title>
+      <link href="/2013/12/02/hello%20-%20world/"/>
+      <url>/2013/12/02/hello%20-%20world/</url>
+      
+        <content type="html"><![CDATA[<p>以下是正文</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+            <tag> tag2 </tag>
+            
+            <tag> tag3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
