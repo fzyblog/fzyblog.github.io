@@ -19,8 +19,7 @@
     <meta name="keywords" content="tag1,tag2,tag3">
 
 
-    <meta name="description" content="以下是正文
-">
+    <meta name="description" content="如何搭建虚拟环境?安装虚拟环境的命令 :sudo pip install virtualenvsudo pip install virtualenvwrapper安装完虚拟环境后，如果提示找不到...">
 
 
 
@@ -173,13 +172,16 @@
             
             
             <p class="fa fa-exclamation-triangle warning">
-                本文于<strong>1957</strong>天之前发表，文中内容可能已经过时。
+                本文于<strong>1959</strong>天之前发表，文中内容可能已经过时。
             </p>
         
     </div>
     
     <div class="post-body post-content">
-        <p>以下是正文</p>
+        <p>如何搭建虚拟环境?<br>安装虚拟环境的命令 :<br>sudo pip install virtualenv<br>sudo pip install virtualenvwrapper<br>安装完虚拟环境后，如果提示找不到mkvirtualenv命令，须配置环境变量：</p>
+<h1 id="1、创建目录用来存放虚拟环境"><a href="#1、创建目录用来存放虚拟环境" class="headerlink" title="1、创建目录用来存放虚拟环境"></a>1、创建目录用来存放虚拟环境</h1><p>mkdir<br>$HOME/.virtualenvs</p>
+<h1 id="2、打开-bashrc文件，并添加如下："><a href="#2、打开-bashrc文件，并添加如下：" class="headerlink" title="2、打开~/.bashrc文件，并添加如下："></a>2、打开~/.bashrc文件，并添加如下：</h1><p>export WORKON_HOME=$HOME/.virtualenvs<br>source /usr/local/bin/virtualenvwrapper.sh</p>
+<h1 id="3、运行"><a href="#3、运行" class="headerlink" title="3、运行"></a>3、运行</h1><p>source ~/.bashrc</p>
 
     </div>
     
@@ -243,7 +245,7 @@
     <div class="widget">
         <h3 class="title">文章目录</h3>
         
-            <p>暂无目录</p>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1、创建目录用来存放虚拟环境"><span class="toc-text">1、创建目录用来存放虚拟环境</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2、打开-bashrc文件，并添加如下："><span class="toc-text">2、打开~/.bashrc文件，并添加如下：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3、运行"><span class="toc-text">3、运行</span></a></li></ol>
         
     </div>
 </aside>
