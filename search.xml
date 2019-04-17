@@ -29,7 +29,7 @@
     
     
     <entry>
-      <title>django框架一</title>
+      <title>django框架--环境搭建及参数传递</title>
       <link href="/2016/12/02/django%E6%A1%86%E6%9E%B6_day01/"/>
       <url>/2016/12/02/django%E6%A1%86%E6%9E%B6_day01/</url>
       
@@ -45,7 +45,7 @@
       
         <tags>
             
-            <tag> django </tag>
+            <tag> django，虚拟环境 </tag>
             
         </tags>
       
